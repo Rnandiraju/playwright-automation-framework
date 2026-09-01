@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="291.991" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\selenium-automation-project\target\test-classes;C:\selenium-automation-project\target\classes;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.0\selenium-java-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.0\selenium-api-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.0\selenium-chrome-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.0\selenium-chromium-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.0\selenium-json-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.0\selenium-manager-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.0\selenium-devtools-v125-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.0\selenium-devtools-v126-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.0\selenium-devtools-v127-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.0\selenium-devtools-v85-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.0\selenium-edge-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.0\selenium-firefox-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.0\selenium-http-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.0\selenium-ie-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.0\selenium-remote-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\rnandiraju\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\rnandiraju\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\rnandiraju\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\rnandiraju\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\rnandiraju\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.0\selenium-os-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.0\selenium-safari-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.0\selenium-support-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\com\microsoft\playwright\playwright\1.49.0\playwright-1.49.0.jar;C:\Users\rnandiraju\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\rnandiraju\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\rnandiraju\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\rnandiraju\.m2\repository\com\microsoft\playwright\driver\1.49.0\driver-1.49.0.jar;C:\Users\rnandiraju\.m2\repository\com\microsoft\playwright\driver-bundle\1.49.0\driver-bundle-1.49.0.jar;C:\Users\rnandiraju\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\rnandiraju\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\rnandiraju\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\rnandiraju\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\rnandiraju\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\rnandiraju\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\rnandiraju\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\rnandiraju\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\rnandiraju\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\rnandiraju\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\rnandiraju\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\rnandiraju\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\rnandiraju\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\rnandiraju\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\rnandiraju\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\rnandiraju\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\rnandiraju\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\rnandiraju\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\rnandiraju\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\rnandiraju\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\rnandiraju\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\rnandiraju\.m2\repository\org\apache\logging\log4j\log4j-core\2.21.1\log4j-core-2.21.1.jar;C:\Users\rnandiraju\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.21.1\log4j-slf4j-impl-2.21.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.20.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\rnandiraju\AppData\Local\Temp\surefire14163807980300593881\surefirebooter-20260831230043054_3.jar C:\Users\rnandiraju\AppData\Local\Temp\surefire14163807980300593881 2026-08-31T23-00-42_789-jvmRun1 surefire-20260831230043054_1tmp surefire_0-20260831230043054_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\selenium-automation-project\target\test-classes;C:\selenium-automation-project\target\classes;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.0\selenium-java-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.0\selenium-api-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.0\selenium-chrome-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.0\selenium-chromium-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.0\selenium-json-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.0\selenium-manager-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.0\selenium-devtools-v125-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.0\selenium-devtools-v126-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.0\selenium-devtools-v127-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.0\selenium-devtools-v85-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.0\selenium-edge-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.0\selenium-firefox-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.0\selenium-http-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.0\selenium-ie-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.0\selenium-remote-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\rnandiraju\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\rnandiraju\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\rnandiraju\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\rnandiraju\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\rnandiraju\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\rnandiraju\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.0\selenium-os-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.0\selenium-safari-driver-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.0\selenium-support-4.23.0.jar;C:\Users\rnandiraju\.m2\repository\com\microsoft\playwright\playwright\1.49.0\playwright-1.49.0.jar;C:\Users\rnandiraju\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\rnandiraju\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\rnandiraju\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\rnandiraju\.m2\repository\com\microsoft\playwright\driver\1.49.0\driver-1.49.0.jar;C:\Users\rnandiraju\.m2\repository\com\microsoft\playwright\driver-bundle\1.49.0\driver-bundle-1.49.0.jar;C:\Users\rnandiraju\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\rnandiraju\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\rnandiraju\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\rnandiraju\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\rnandiraju\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\rnandiraju\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\rnandiraju\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\rnandiraju\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\rnandiraju\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\rnandiraju\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\rnandiraju\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\rnandiraju\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\rnandiraju\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\rnandiraju\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\rnandiraju\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\rnandiraju\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\rnandiraju\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\rnandiraju\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\rnandiraju\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\rnandiraju\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\rnandiraju\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\rnandiraju\.m2\repository\org\apache\logging\log4j\log4j-core\2.21.1\log4j-core-2.21.1.jar;C:\Users\rnandiraju\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.21.1\log4j-slf4j-impl-2.21.1.jar;"/>
+    <property name="allure.results.directory" value="C:\selenium-automation-project\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rnandiraju"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-07-21"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.20.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\selenium-automation-project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\rnandiraju\AppData\Local\Temp\surefire14163807980300593881\surefirebooter-20260831230043054_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.20+8"/>
+    <property name="user.name" value="rnandiraju"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.20+8"/>
+    <property name="localRepository" value="C:\Users\rnandiraju\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\RNANDI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.20"/>
+    <property name="user.dir" value="C:\selenium-automation-project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.20.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\rnandiraju\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\rnandiraju\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Eclipse Adoptium\jdk-17.0.20.8-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Users\rnandiraju\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.2\bin;;C:\Users\rnandiraju\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.20+8"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testBingPageLoads" classname="com.automation.tests.BingSearchTest" time="15.256">
+    <system-out><![CDATA[ERROR StatusConsoleListener Could not create plugin of type class org.apache.logging.log4j.core.appender.RollingFileAppender for element RollingFile
+ org.apache.logging.log4j.core.config.ConfigurationException: Configuration has multiple incompatible Appenders pointing to the same resource 'logs/automation.log'
+	at org.apache.logging.log4j.core.appender.AbstractManager.narrow(AbstractManager.java:200)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.getFileManager(RollingFileManager.java:217)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender$Builder.build(RollingFileAppender.java:135)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender$Builder.build(RollingFileAppender.java:62)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:123)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1138)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1063)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1055)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:664)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:258)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:304)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:621)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:694)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:711)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:253)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:155)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:137)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:61)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:47)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:33)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:363)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:388)
+	at org.testng.log4testng.Logger.lambda$getLogger$0(Logger.java:30)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.testng.log4testng.Logger.getLogger(Logger.java:30)
+	at org.testng.TestNG.<clinit>(TestNG.java:113)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:297)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+ERROR StatusConsoleListener Null object returned for RollingFile in Appenders.
+ERROR StatusConsoleListener Unable to locate appender "RollingFile" for logger config "root"
+...
+... TestNG 7.8.0 by Cédric Beust (cedric@beust.com)
+...
+
+2026-08-31 23:00:48 [TestNG-test=Smoke Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Started ==========
+2026-08-31 23:00:48 [TestNG-test=Smoke Tests-1] INFO  com.automation.utils.ConfigManager - Configuration loaded from: src/test/resources/config.properties
+2026-08-31 23:00:48 [TestNG-test=Smoke Tests-1] INFO  com.automation.utils.ConfigManager - Browser configured as: chrome
+2026-08-31 23:01:16 [TestNG-test=Smoke Tests-1] INFO  com.automation.utils.ConfigManager - Headless mode: false
+2026-08-31 23:01:19 [TestNG-test=Smoke Tests-1] INFO  com.automation.drivers.DriverManager - Playwright initialized for browser: chrome
+2026-08-31 23:01:19 [TestNG-test=Smoke Tests-1] INFO  com.automation.utils.ConfigManager - Base URL configured as: https://www.bing.com
+2026-08-31 23:01:21 [TestNG-test=Smoke Tests-1] INFO  com.automation.base.BaseTest - Navigated to: https://www.bing.com
+2026-08-31 23:01:21 [TestNG-test=Smoke Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Completed ==========
+2026-08-31 23:01:22 [TestNG-test=Smoke Tests-1] INFO  com.automation.tests.BingSearchTest - Starting test: testBingPageLoads
+2026-08-31 23:01:22 [TestNG-test=Smoke Tests-1] INFO  com.automation.base.BaseTest - Pausing for 15 seconds before validation: Bing page loaded
+2026-08-31 23:01:37 [TestNG-test=Smoke Tests-1] INFO  com.automation.pages.BingSearchPage - Bing page verified - search box is visible
+2026-08-31 23:01:37 [TestNG-test=Smoke Tests-1] INFO  com.automation.base.BaseTest - Assertion passed: Bing page should be loaded
+2026-08-31 23:01:37 [TestNG-test=Smoke Tests-1] INFO  com.automation.tests.BingSearchTest - Test completed: testBingPageLoads
+]]></system-out>
+  </testcase>
+  <testcase name="testBingPageLoads" classname="com.automation.tests.BingSearchTest" time="15.225">
+    <system-out><![CDATA[2026-08-31 23:01:37 [TestNG-test=Smoke Tests-1] INFO  com.automation.base.BaseTest - ========== Test Teardown Started ==========
+2026-08-31 23:01:38 [TestNG-test=Smoke Tests-1] INFO  com.automation.drivers.DriverManager - Playwright closed and removed from ThreadLocal
+2026-08-31 23:01:38 [TestNG-test=Smoke Tests-1] INFO  com.automation.base.BaseTest - Playwright closed successfully
+2026-08-31 23:01:38 [TestNG-test=Smoke Tests-1] INFO  com.automation.base.BaseTest - ========== Test Teardown Completed ==========
+2026-08-31 23:01:38 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Started ==========
+2026-08-31 23:01:38 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Browser configured as: chrome
+2026-08-31 23:01:40 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Headless mode: false
+2026-08-31 23:01:43 [TestNG-test=Regression Tests-1] INFO  com.automation.drivers.DriverManager - Playwright initialized for browser: chrome
+2026-08-31 23:01:43 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Base URL configured as: https://www.bing.com
+2026-08-31 23:01:46 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Navigated to: https://www.bing.com
+2026-08-31 23:01:46 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Completed ==========
+2026-08-31 23:01:46 [TestNG-test=Regression Tests-1] INFO  com.automation.tests.BingSearchTest - Starting test: testBingPageLoads
+2026-08-31 23:01:46 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Pausing for 15 seconds before validation: Bing page loaded
+2026-08-31 23:02:01 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingSearchPage - Bing page verified - search box is visible
+2026-08-31 23:02:01 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Assertion passed: Bing page should be loaded
+2026-08-31 23:02:01 [TestNG-test=Regression Tests-1] INFO  com.automation.tests.BingSearchTest - Test completed: testBingPageLoads
+]]></system-out>
+  </testcase>
+  <testcase name="testBingSearch" classname="com.automation.tests.BingSearchTest" time="33.3">
+    <system-out><![CDATA[2026-08-31 23:02:01 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Teardown Started ==========
+2026-08-31 23:02:02 [TestNG-test=Regression Tests-1] INFO  com.automation.drivers.DriverManager - Playwright closed and removed from ThreadLocal
+2026-08-31 23:02:02 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Playwright closed successfully
+2026-08-31 23:02:02 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Teardown Completed ==========
+2026-08-31 23:02:02 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Started ==========
+2026-08-31 23:02:02 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Browser configured as: chrome
+2026-08-31 23:02:04 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Headless mode: false
+2026-08-31 23:02:07 [TestNG-test=Regression Tests-1] INFO  com.automation.drivers.DriverManager - Playwright initialized for browser: chrome
+2026-08-31 23:02:07 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Base URL configured as: https://www.bing.com
+2026-08-31 23:02:12 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Navigated to: https://www.bing.com
+2026-08-31 23:02:12 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Completed ==========
+2026-08-31 23:02:12 [TestNG-test=Regression Tests-1] INFO  com.automation.tests.BingSearchTest - Starting test: testBingSearch
+2026-08-31 23:02:12 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingSearchPage - Searching for: Selenium WebDriver
+2026-08-31 23:02:14 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingSearchPage - Search results loaded successfully
+2026-08-31 23:02:14 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Pausing for 15 seconds before validation: Bing search results displayed
+2026-08-31 23:02:29 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingSearchPage - Search results visibility: true
+2026-08-31 23:02:29 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Assertion passed: Bing search results should be displayed
+2026-08-31 23:02:29 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingSearchPage - Retrieved page title: Selenium WebDriver - Search
+2026-08-31 23:02:29 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Pausing for 15 seconds before validation: Bing page title contains search query
+2026-08-31 23:02:44 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Assertion passed: Bing page title should contain: Selenium WebDriver
+2026-08-31 23:02:44 [TestNG-test=Regression Tests-1] INFO  com.automation.tests.BingSearchTest - Test completed: testBingSearch
+]]></system-out>
+  </testcase>
+  <testcase name="testBingSearchMultipleKeywords" classname="com.automation.tests.BingSearchTest" time="44.46">
+    <system-out><![CDATA[2026-08-31 23:02:44 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Teardown Started ==========
+2026-08-31 23:02:47 [TestNG-test=Regression Tests-1] INFO  com.automation.drivers.DriverManager - Playwright closed and removed from ThreadLocal
+2026-08-31 23:02:47 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Playwright closed successfully
+2026-08-31 23:02:47 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Teardown Completed ==========
+2026-08-31 23:02:47 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Started ==========
+2026-08-31 23:02:47 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Browser configured as: chrome
+2026-08-31 23:02:49 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Headless mode: false
+2026-08-31 23:02:52 [TestNG-test=Regression Tests-1] INFO  com.automation.drivers.DriverManager - Playwright initialized for browser: chrome
+2026-08-31 23:02:52 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Base URL configured as: https://www.bing.com
+2026-08-31 23:02:54 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Navigated to: https://www.bing.com
+2026-08-31 23:02:54 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Completed ==========
+2026-08-31 23:02:54 [TestNG-test=Regression Tests-1] INFO  com.automation.tests.BingSearchTest - Starting test: testBingSearchMultipleKeywords
+2026-08-31 23:02:54 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingSearchPage - Searching for: Java Selenium Automation
+2026-08-31 23:03:24 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingSearchPage - Search results loaded successfully
+2026-08-31 23:03:24 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingSearchPage - Current search query: Java Selenium Automation
+2026-08-31 23:03:24 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Pausing for 15 seconds before validation: Bing search query contains Java
+2026-08-31 23:03:39 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Assertion passed: Search query should contain 'Java'
+2026-08-31 23:03:39 [TestNG-test=Regression Tests-1] INFO  com.automation.tests.BingSearchTest - Test completed: testBingSearchMultipleKeywords
+]]></system-out>
+  </testcase>
+  <testcase name="testBingHomePageLinks" classname="com.automation.tests.BingSearchTest" time="15.182">
+    <system-out><![CDATA[2026-08-31 23:03:39 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Teardown Started ==========
+2026-08-31 23:03:40 [TestNG-test=Regression Tests-1] INFO  com.automation.drivers.DriverManager - Playwright closed and removed from ThreadLocal
+2026-08-31 23:03:40 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Playwright closed successfully
+2026-08-31 23:03:40 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Teardown Completed ==========
+2026-08-31 23:03:40 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Started ==========
+2026-08-31 23:03:40 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Browser configured as: chrome
+2026-08-31 23:03:41 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Headless mode: false
+2026-08-31 23:03:44 [TestNG-test=Regression Tests-1] INFO  com.automation.drivers.DriverManager - Playwright initialized for browser: chrome
+2026-08-31 23:03:44 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Base URL configured as: https://www.bing.com
+2026-08-31 23:03:47 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Navigated to: https://www.bing.com
+2026-08-31 23:03:47 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Completed ==========
+2026-08-31 23:03:47 [TestNG-test=Regression Tests-1] INFO  com.automation.tests.BingSearchTest - Starting test: testBingHomePageLinks
+2026-08-31 23:03:47 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingSearchPage - Bing home page link count: 63
+Bing home page contains 63 links.
+2026-08-31 23:03:47 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Pausing for 15 seconds before validation: Bing home page links present
+2026-08-31 23:04:02 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Assertion passed: Bing home page should contain at least one link, but found 63
+2026-08-31 23:04:02 [TestNG-test=Regression Tests-1] INFO  com.automation.tests.BingSearchTest - Test completed: testBingHomePageLinks
+]]></system-out>
+  </testcase>
+  <testcase name="testBingImagesSearchForMsDhoni" classname="com.automation.tests.BingSearchTest" time="40.713">
+    <system-out><![CDATA[2026-08-31 23:04:02 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Teardown Started ==========
+2026-08-31 23:04:03 [TestNG-test=Regression Tests-1] INFO  com.automation.drivers.DriverManager - Playwright closed and removed from ThreadLocal
+2026-08-31 23:04:03 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Playwright closed successfully
+2026-08-31 23:04:03 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Teardown Completed ==========
+2026-08-31 23:04:03 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Started ==========
+2026-08-31 23:04:03 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Browser configured as: chrome
+2026-08-31 23:04:06 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Headless mode: false
+2026-08-31 23:04:09 [TestNG-test=Regression Tests-1] INFO  com.automation.drivers.DriverManager - Playwright initialized for browser: chrome
+2026-08-31 23:04:09 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Base URL configured as: https://www.bing.com
+2026-08-31 23:04:12 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Navigated to: https://www.bing.com
+2026-08-31 23:04:12 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Completed ==========
+2026-08-31 23:04:12 [TestNG-test=Regression Tests-1] INFO  com.automation.tests.BingSearchTest - Starting test: testBingImagesSearchForMsDhoni
+2026-08-31 23:04:15 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingSearchPage - Bing Images page opened: https://www.bing.com/images
+2026-08-31 23:04:15 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Pausing for 15 seconds before validation: Bing Images page should be opened
+2026-08-31 23:04:30 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Assertion passed: Bing Images page should be opened
+2026-08-31 23:04:33 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingSearchPage - Entered Images search query: MS Dhoni
+2026-08-31 23:04:37 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingSearchPage - Bing Images search submitted
+2026-08-31 23:04:37 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Pausing for 15 seconds before validation: Bing Images results should be displayed
+2026-08-31 23:04:52 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Assertion passed: Bing Images results should be displayed
+2026-08-31 23:04:52 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Assertion passed: Bing Images page should contain 'MS Dhoni'
+2026-08-31 23:04:52 [TestNG-test=Regression Tests-1] INFO  com.automation.tests.BingSearchTest - Test completed: testBingImagesSearchForMsDhoni
+]]></system-out>
+  </testcase>
+  <testcase name="searchBangaloreAndViewDirections" classname="com.automation.tests.BingMapsDirectionsTest" time="33.467">
+    <system-out><![CDATA[2026-08-31 23:04:52 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Teardown Started ==========
+2026-08-31 23:04:53 [TestNG-test=Regression Tests-1] INFO  com.automation.drivers.DriverManager - Playwright closed and removed from ThreadLocal
+2026-08-31 23:04:53 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Playwright closed successfully
+2026-08-31 23:04:53 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Teardown Completed ==========
+2026-08-31 23:04:53 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Started ==========
+2026-08-31 23:04:53 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Browser configured as: chrome
+2026-08-31 23:04:55 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Headless mode: false
+2026-08-31 23:04:57 [TestNG-test=Regression Tests-1] INFO  com.automation.drivers.DriverManager - Playwright initialized for browser: chrome
+2026-08-31 23:04:57 [TestNG-test=Regression Tests-1] INFO  com.automation.utils.ConfigManager - Base URL configured as: https://www.bing.com
+2026-08-31 23:05:00 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Navigated to: https://www.bing.com
+2026-08-31 23:05:00 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - ========== Test Setup Completed ==========
+2026-08-31 23:05:01 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingMapsPage - Bing Maps page opened: https://www.bing.com/maps?FORM=Z9LH2
+2026-08-31 23:05:01 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Assertion passed: Bing Maps page should open
+2026-08-31 23:05:07 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingMapsPage - Searched Bing Maps for: Bangalore
+2026-08-31 23:05:07 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Assertion passed: Bangalore should be displayed on the map
+2026-08-31 23:05:07 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingMapsPage - Bing Maps Directions opened
+2026-08-31 23:05:07 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Assertion passed: Directions page should open
+2026-08-31 23:05:09 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingMapsPage - Point A entered: Whitefield, 291/4, Railway Station Road, Bengaluru East
+2026-08-31 23:05:09 [TestNG-test=Regression Tests-1] INFO  com.automation.base.BaseTest - Pausing for 15 seconds before validation: Kempegowda Metro Station, Majestic, 7, Thotadappa Road, Bengaluru North
+2026-08-31 23:05:25 [TestNG-test=Regression Tests-1] INFO  com.automation.pages.BingMapsPage - Point B entered: Kempegowda Metro Station, Majestic, 7, Thotadappa Road, Bengaluru North
+]]></system-out>
+  </testcase>
+</testsuite>

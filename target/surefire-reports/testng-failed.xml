@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [PlayWrite Project Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.automation.listeners.ExcelReportListener"/>
+  </listeners>
+  <test thread-count="1" parallel="methods" name="Regression Tests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.automation.tests.BingMapsDirectionsTest">
+        <methods>
+          <include name="searchBangaloreAndViewDirections"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.tests.BingMapsDirectionsTest -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+</suite> <!-- Failed suite [PlayWrite Project Suite] -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-current.dtd">
+<suite name="PlayWrite Project Suite" verbose="2" thread-count="1" parallel="methods">
+    <listeners>
+        <listener class-name="com.automation.listeners.ExcelReportListener"/>
+    </listeners>
+    
+    <!-- Smoke Test Suite -->
+    <test name="Smoke Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.automation.tests.BingSearchTest">
+                <methods>
+                    <include name="testBingPageLoads"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- Regression Test Suite -->
+    <test name="Regression Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.automation.tests.BingSearchTest">
+                <methods>
+                    <include name="testBingPageLoads"/>
+                    <include name="testBingSearch"/>
+                    <include name="testBingSearchMultipleKeywords"/>
+                    <include name="testBingHomePageLinks"/>
+                    <include name="testBingImagesSearchForMsDhoni"/>
+                </methods>
+            </class>
+            <class name="com.automation.tests.BingMapsDirectionsTest"/>
+        </classes>
+    </test>
+
+</suite>

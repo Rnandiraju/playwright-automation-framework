@@ -1,0 +1,3 @@
+com\demoqa\automation\drivers\DriverManager.class
+com\demoqa\automation\pages\BrowserWindowsPage.class
+com\demoqa\automation\utils\ConfigManager.class

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoQA Browser Windows Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Browser Windows Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.demoqa.automation.tests.BrowserWindowsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="shouldOpenNewWindow"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.demoqa.automation.tests.BrowserWindowsTest -->
+    </classes>
+  </test> <!-- Browser Windows Tests(failed) -->
+</suite> <!-- Failed suite [DemoQA Browser Windows Suite] -->

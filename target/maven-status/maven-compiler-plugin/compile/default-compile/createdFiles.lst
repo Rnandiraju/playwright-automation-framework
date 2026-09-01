@@ -1,0 +1,5 @@
+com\automation\base\BasePage.class
+com\automation\drivers\DriverManager.class
+com\automation\pages\BingMapsPage.class
+com\automation\pages\BingSearchPage.class
+com\automation\utils\ConfigManager.class
